@@ -1,0 +1,26 @@
+[Unit]
+Description=Bitesax's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitesax
+Group=bitesax
+
+Type=forking
+PIDFile=/var/lib/bitesaxd/bitesaxd.pid
+
+ExecStart=/usr/bin/bitesaxd -daemon -pid=/var/lib/bitesaxd/bitesaxd.pid \
+          -conf=/etc/bitesax/bitesax.conf -datadir=/var/lib/bitesaxd
+
+ExecStop=-/usr/bin/bitesax-cli -conf=/etc/bitesax/bitesax.conf \
+         -datadir=/var/lib/bitesaxd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

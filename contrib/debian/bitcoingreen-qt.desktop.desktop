@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitesax
+Comment=Bitesax P2P Cryptocurrency
+Exec=bitesax-qt %u
+Terminal=false
+Type=Application
+Icon=bitesax128
+MimeType=x-scheme-handler/bitesax;
+Categories=Office;Finance;
+Name[en_US]=bitesax-qt.desktop
