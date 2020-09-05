@@ -20,11 +20,11 @@ Furthermore, as result of offering multiple ways for users to mint new BTEX coin
 ## Block reward breakdown
 
 #### Premine : 6,000,000 BTEX
-#### Block 1 - 500,000 - 50 BTEX
-#### Block 500,001 - 1,000,000 - 25 BTEX
-#### Block 1,000,001 - 2,000,000 - 12.5 BTEX
-#### Block 2,000,001 + - 1 BTEX
+#### Block 1 - 500,000 - 75 BTEX
+#### Block 500,001 - 1,000,000 - 35 BTEX
+#### Block 1,000,001 - 2,000,000 - 17.5 BTEX
+#### Block 2,000,001 + - 2 BTEX
 
 
 
-
+# -- Development by CryptoKnight --
