@@ -12,14 +12,14 @@ Furthermore, as result of offering multiple ways for users to mint new BTEX coin
 #### Maximum supply: - *90,000,000 (90 million) BTEX*
 #### Consensus mechanism: - *Proof-of-Stake (80% masternodes, 20% stakers)*
 #### Algorithm: - *Quark-hash* 
-#### Masternode collateral - *10,000 BTEX*  
+#### Masternode collateral - *5,000 BTEX*  
 #### Features: - *SwiftTX, budget, treausury and masternode governance is enabled* 
 #### RPC Port: - *9634* 
 #### P2P Port: - *9633* 
 
 ## Block reward breakdown
 
-#### Premine : 10,000,000 BTEX
+#### Premine : 6,000,000 BTEX
 #### Block 1 - 500,000 - 50 BTEX
 #### Block 500,001 - 1,000,000 - 25 BTEX
 #### Block 1,000,001 - 2,000,000 - 12.5 BTEX
