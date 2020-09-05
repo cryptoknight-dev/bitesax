@@ -27,4 +27,6 @@ Furthermore, as result of offering multiple ways for users to mint new BTEX coin
 
 
 
-                                                       -- Development by CryptoKnight --
+
+
+                                                   -- Development by CryptoKnight --
